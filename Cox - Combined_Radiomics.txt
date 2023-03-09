@@ -1,0 +1,123 @@
+Cox - Combined
+5 nodes - Univariate
+
+         coef exp.coef.     SE lower_ci upper_ci    Z      P
+volume 0.2502   1.28428 0.0313  1.20786  1.36554 9.08 <2e-16
+
+                    coef exp.coef.      SE lower_ci upper_ci     Z      P
+firstorderenergy 0.54007   1.71613 0.06308  1.51654  1.94198 11.35 <2e-16
+
+               coef exp.coef.      SE lower_ci upper_ci     Z     P
+sphericity -0.33213   0.71739 0.05414  0.64517  0.79771 -5.22 2e-07
+
+              coef exp.coef.      SE lower_ci upper_ci     Z      P
+orig_glrlm 0.50871   1.66314 0.06399   1.4671  1.88538 10.36 <2e-16
+
+            coef exp.coef.      SE lower_ci upper_ci    Z      P
+wav_glrlm 0.4589   1.58234 0.06353  1.39708  1.79215 9.17 <2e-16
+
+5 nodes - Multivariate
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.86434   2.37344 0.25843  1.43020  3.93875  5.31 1e-07
+orig_glrlm       -0.14118   0.86834 0.29338  0.48860  1.54318 -0.45 0.654
+volume            0.13457   1.14405 0.04560  1.04623  1.25100  3.16 0.002
+sphericity       -0.16906   0.84445 0.06074  0.74968  0.95122 -2.56 0.010
+wav_glrlm        -0.42188   0.65581 0.24317  0.40718  1.05626 -1.42 0.157
+
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.79121   2.20606 0.21093  1.45905  3.33553  5.72 1e-08
+volume            0.13441   1.14386 0.04561  1.04604  1.25083  3.15 0.002
+sphericity       -0.16411   0.84865 0.05991  0.75463  0.95439 -2.53 0.012
+wav_glrlm        -0.48628   0.61491 0.20344  0.41270  0.91618 -1.89 0.058
+
+
+Validate results
+
+Train on 5 - validate on node - 5
+
+{\"Concordance Index\": 0.6452795600366636}
+
+Train on 5 - validate on node - 4
+
+{\"Concordance Index\": 0.6527366312154991}"
+
+Train on 5 - validate on node - 3
+
+{\"Concordance Index\": 0.6082325849165228}"
+
+Train on 5 - validate on node - 2
+
+{\"Concordance Index\": 0.6836068720606584}"
+
+Train on 5 - validate on node - 1
+
+{\"Concordance Index\": 0.6291208791208791}
+
+Cyclic validation
+
+Train on 4 - validate on node - 5
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.84507   2.32815 0.21742  1.52033  3.56518  6.11 1e-09
+volume            0.14488   1.15590 0.04586  1.05653  1.26461  3.40 7e-04
+sphericity       -0.15073   0.86008 0.06227  0.76126  0.97173 -2.25  0.02
+wav_glrlm        -0.55575   0.57364 0.20931  0.38060  0.86459 -2.04  0.04
+
+Concordance Index\": 0.6452795600366636
+
+Train 4 - validate on node 4
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.62045   1.85976 0.34209  0.95119  3.63623  2.51  0.01
+volume            0.25993   1.29685 0.05030  1.17509  1.43121  5.90 4e-09
+sphericity       -0.24118   0.78570 0.09070  0.65774  0.93856 -2.36  0.02
+wav_glrlm        -0.47614   0.62117 0.34258  0.31740  1.21570 -1.11  0.27
+
+Concordance Index\": 0.6488682623244315
+
+Train 4 - validate on node 3
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.71190   2.03786 0.21950  1.32535  3.13340  4.73 2e-06
+volume            0.10700   1.11294 0.04586  1.01726  1.21760  2.46  0.01
+sphericity       -0.17390   0.84038 0.06299  0.74278  0.95081 -2.53  0.01
+wav_glrlm        -0.36685   0.69291 0.21101  0.45821  1.04784 -1.46  0.15
+
+Concordance Index\": 0.6010362694300518
+
+Train 4 - validate on node 2
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.96410   2.62243 0.23641  1.64994  4.16811  6.86 7e-12
+volume            0.07664   1.07965 0.04615  0.98628  1.18187  1.73  0.08
+sphericity       -0.11476   0.89158 0.06513  0.78473  1.01298 -1.66  0.10
+wav_glrlm        -0.56192   0.57011 0.22898  0.36396  0.89304 -1.88  0.06
+
+Concordance Index\": 0.6782320760149726
+
+Train 4 - validate on node 1
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z    P
+firstorderenergy  1.02768   2.79458 1.24374  0.24413 31.98959  1.44 0.15
+volume           -0.13259   0.87582 1.23422  0.07795  9.84025 -0.10 0.92
+sphericity       -0.17223   0.84179 0.06418  0.74228  0.95462 -2.47 0.01
+wav_glrlm        -0.45704   0.63315 0.20658  0.42234  0.94919 -1.78 0.08
+
+Concordance Index\": 0.6299058084772371
+
+
+                     coef exp.coef.      SE lower_ci upper_ci     Z     P
+firstorderenergy  0.32800   1.38819 0.08308  1.17959  1.63368  4.67 3e-06
+volume            0.12812   1.13669 0.04546  1.03979  1.24262  3.01 0.003
+sphericity       -0.19948   0.81915 0.05841  0.73055  0.91852 -3.10 0.002
+
+               coef exp.coef.      SE lower_ci upper_ci     Z     P
+wav_glrlm   0.21981   1.24584 0.07926  1.06658  1.45522  3.10 0.002
+volume      0.16367   1.17783 0.04240  1.08390  1.27989  4.19 3e-05
+sphericity -0.24090   0.78592 0.05666  0.70331  0.87823 -3.78 2e-04
+
+               coef exp.coef.      SE lower_ci upper_ci     Z     P
+volume      0.22746   1.25541 0.03278  1.17729  1.33871  7.79 7e-15
+sphericity -0.26973   0.76359 0.05523  0.68524  0.85088 -4.28 2e-05
